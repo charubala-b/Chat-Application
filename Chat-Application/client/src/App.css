@@ -1,0 +1,76 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+body {
+  background-color: rgb(225, 192, 244);
+}
+/* 
+.Login {
+  background-color: rgb(246, 246, 246);
+  width: 900px;
+  height: 600px;
+  box-shadow: 2px 2px 9px 7px rgb(174, 172, 172);
+  margin-left: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: flex-start; 
+  margin-right: 20px;
+} */
+
+/* .image1 {
+  max-height: 400px;
+  max-width: 300px;
+} */
+hr{
+  width: 100%;
+  margin: 1rem 0;
+  border: 0.5px solid #ccc;
+}
+input{
+  border-radius: 10px;
+}
+
+.p1,.p2,.p3,.p4,.p5{
+  width: 75px;
+  height: 75px;
+}
+
+
+.p1:hover{
+  background-color: rgb(46, 45, 43);
+  border-radius: 35px;
+}
+.p2:hover{
+  background-color: rgb(46, 45, 43);
+  border-radius: 35px;
+}
+.p3:hover{
+  background-color: rgb(46, 45, 43);
+  border-radius: 35px;
+}
+.p4:hover{
+  background-color: rgb(46, 45, 43);
+  border-radius: 35px;
+}
+.p5:hover{
+    background-color: rgb(46, 45, 43);
+    border-radius: 35px
+}
+.logoGif{
+  border-radius: 20%;
+  background-color: rgb(225, 192, 244);
+  width: 80px;
+  height: 80px;
+}

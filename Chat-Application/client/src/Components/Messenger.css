@@ -1,0 +1,138 @@
+.messengerContainer {
+  display: flex;
+  background: linear-gradient(to right, #39132a, #2b0e46); /* Dark background color */
+  height: 100vh;
+  align-items: flex-start; /* Align items to the top */
+  padding: 20px;
+  position: relative;
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+/* Less highlight effect when the popup is active */
+/* .messengerContainer.popup-active {
+  background-color: rgba(238, 233, 233, 0.5); /* Darken the background slightly 
+} */
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align content to the left */
+  justify-content: flex-start;
+  width: 50%; /* Set width to half */
+  padding-right: 20px; /* Add space between sections */
+  z-index: 1; /* Ensure it stays above the background */
+}
+
+.rightSide {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-left: 20px; /* Add padding to left side */
+  margin-right: 30%;
+  margin-top: 25%;
+  z-index: 1; /* Ensure it stays above the background */
+}
+
+.finalImage {
+  width: 50px; /* Adjust size as needed */
+  margin-bottom: 10px;
+}
+
+.chatName {
+  font-size: 24px;
+  color: #EE82EE; /* Violet color for text */
+  margin: 0; /* Remove default margin */
+}
+
+.verticalLine {
+  width: 1px;
+  background-color: #444; /* Line color */
+  height: 100%;
+  position: absolute;
+  left: 20%;
+  top: 0;
+  box-shadow: 1px 1px 1px 1px #d5c9c9;
+}
+
+.simple {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoGif {
+  width: 150px; /* Adjust size as needed */
+  margin-bottom: 20px;
+  height: 100px;
+}
+
+p {
+  color: #d5c9c9;
+}
+
+.name {
+  margin-top: 65%;
+}
+
+/* Style for the popup content */
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 2; /* Ensure popup is above the background */
+}
+
+/* Popup modal container styles */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  z-index: 3;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Close button styles */
+button {
+  margin-top: 10px;
+  padding: 20px 35px;
+  background-color: #648346;
+  color: rgb(22, 22, 22);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 3;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #345c2b;
+  box-shadow: 2px 2px 4px 4px #739d7b;
+}
+
+/* Chat Component Styles */
+.plus {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #d7d0d0;
+}
+
+.plus a {
+  margin-left: 10px; /* Adjust this value to increase or decrease the spacing */
+  text-decoration: none; /* Optional: removes the underline from the link */
+  font-size: 18px; /* Optional: makes the '+' slightly larger for emphasis */
+  color: #c2c7cc; /* Optional: gives the '+' a different color */
+}
+
+.hi{
+  padding: 10px;
+  font-size: 30px;
+}

@@ -1,0 +1,97 @@
+/* Chat Component Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+  }
+  
+  .sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #39132a, #2b0e46);;
+  }
+  
+  .f {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .e {
+    margin-bottom: 20px;
+    color: #1a1818;
+    background-color: burlywood;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  form input[type="text"] {
+    width: 400px;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #555454;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .brief {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .i{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  /* Styling for clickable images */
+  .p1,
+  .p2,
+  .p3,
+  .p4,
+  .p5 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin: 5px;
+    transition: transform 0.2s;
+  }
+  
+  .p1:hover,
+  .p2:hover,
+  .p3:hover,
+  .p4:hover,
+  .p5:hover {
+    transform: scale(1.1);
+    border: 2px solid #007bff;
+  }
+  
+  .save {
+    /* background-color: #007bff; */
+    color: white;
+    padding: 40px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+  }
+  
+  /* .save:hover {
+    /* background-color: #0056b3;
+  } */
+  

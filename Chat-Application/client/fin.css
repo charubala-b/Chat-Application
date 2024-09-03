@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+}
+
+.chat-window {
+  width: 500px; /* Increased width for larger chat area */
+  height: 600px; /* Increased height for larger chat area */
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #350050; /* Dark purple background color */
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header {
+  height: 50px;
+  background-color: #263238;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
+
+.chat-body {
+  flex: 1;
+  padding: 15px;
+  background-image: url('./src/Components/background.jpg'); /* Background for the messages */
+  overflow-y: auto;
+  box-shadow: 2px 2px 4px 4px beige;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  border-color: #222222;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.message#you {
+  justify-content: flex-end;
+}
+
+.message#other {
+  justify-content: flex-start;
+}
+
+.message-content {
+  max-width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #43a047; /* Green for own messages */
+  color: white;
+  
+}
+
+.message#other .message-content {
+  background-color: cornflowerblue; /* Blue for others' messages */
+}
+
+.inc {
+  width: 50%;
+}
+
+.message-meta {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #f0e6e6;
+  
+}
+
+#time {
+  display: inline-block;
+  color: #222222;
+  font-weight: bold;
+}
+
+#author {
+  display: inline-block;
+  margin-left: 10px;
+  color: #222222;
+  font-weight: bold;
+}
+
+.chat-footer {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  background-color: #263238;
+}
+
+.chat-footer input {
+  flex: 1;
+  height: 40px;
+  border: none;
+  padding: 0 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.chat-footer button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.chat-footer button:hover {
+  color: #43a047;
+}
